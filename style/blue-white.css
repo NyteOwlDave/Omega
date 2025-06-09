@@ -1,0 +1,88 @@
+
+
+:root {
+    --fgnd: #EDC;
+    --bgnd: #123;
+}
+ 
+[inverse] {
+    background-color: var(--fgnd);
+    color: var(--bgnd);
+}
+
+body {
+    color: var(--fgnd);
+    background-color: var(--bgnd);
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 5px;
+}
+
+h2 {
+    width: 100%;
+    text-align: right;
+    border-top: 1px solid gray;
+    color: lemonchiffon;
+}
+
+h2:after {
+    content: "@";
+    color: transparent;
+}
+
+header {
+    color: var(--bgnd);
+    background-color: var(--fgnd);
+    font: 20pt Helvetica;
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+}
+
+code {
+    color: skyblue;
+    font-weight: 900;
+}
+
+pre {
+    background-color: #225;
+    padding: 1em;
+}
+
+pre.signature {
+    text-align: right;
+    align-content: right;
+    color: skyblue;
+    background-color: #202010;
+    font-weight: 900;
+    border-radius: 5px;
+}
+
+b, figcaption {
+    color: #FFFF9E
+}
+
+figcaption {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+kbd {
+    border: 1px solid #222;
+    border-radius: 5px;
+    background-color: gray;
+    color: black;
+    font-family: monospace;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.indent {
+    padding-left: 10px;
+}
+

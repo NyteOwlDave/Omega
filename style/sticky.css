@@ -1,0 +1,49 @@
+
+/*
+header[sticky] {
+    width: 100%;
+    margin: 0;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+*/
+
+header[sticky] {
+    position: sticky;
+    top: 0;
+    left: 0;
+    font-size: 24pt;
+}
+
+footer[statusbar] {
+    position: fixed;
+    bottom: 0;
+}
+
+footer[statusbar], header[sticky] {
+    margin: 0;
+    width: calc(100% - 8px);;
+    padding: 4px;
+    user-select: none;
+    cursor: none;
+}
+
+[center] {
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
+
+[spacer] {
+    margin-top: 200px;
+}
+
+/*
+    Colors are defined by the specfic app, but
+    should also define an [inverse] attribute
+    to be consistent with current best practices
+*/
+

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>BOB Image Viewer</title>
+</head>
+<body>
+
+<button onclick="on_click_load()">Load</button>
+
+<canvas></canvas>
+
+<script src="./api/bob.js"></script>
+
+<script>
+
+const canvas = document.getElementsByTagName('canvas')[0];
+
+const el = (type, text) => {
+    if (text) {
+        const e = el(type);
+        e.innerText = text;
+        return e;
+    }
+    return document.createElement(e);
+}
+
+const do_load_file = (file) => {
+    console.log("Load File!");
+}
+
+const on_click_load = (evt) => {
+    console.log("Load!");
+}
+
+</script>
+
+</body>
+</html>
