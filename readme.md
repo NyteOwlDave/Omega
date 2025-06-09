@@ -6,4 +6,13 @@ on the Ryzen workstation.
 
 However, the Git Repo was created on the Legacy workstation.
 
+# Clones
+
+- Ryzen
+
+# Pending Clones
+
 These need to be merged ASAP.
+
+- Tower
+
