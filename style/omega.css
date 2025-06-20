@@ -1,0 +1,11 @@
+
+@import url("./blue-white.css");    
+@import url("./pretty.css");    
+@import url("./sticky.css");    
+
+nav > a {
+    display: block;
+    color: lemonchiffon;
+    cursor : hand;
+}
+
